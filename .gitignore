@@ -105,3 +105,4 @@ dist
 /.idea/modules.xml
 /.idea/shop-backend.iml
 /.idea/vcs.xml
+/.idea/aws.xml

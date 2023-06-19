@@ -2,9 +2,11 @@ const typeDefs = `#graphql
   # Comments in GraphQL strings (such as this one) start with the hash (#) symbol.
 
   type Product {
+    id: String
     name: String
     rating: Int
     imageUrl: String
+    price: Int
   }
 
   # The "Query" type is special: it lists all of the available queries that
@@ -30,6 +32,7 @@ const typeDefs = `#graphql
     name: String!
     rating: Int!
     imageUrl: String
+    price: Int!
   }
   
   type Mutation {
